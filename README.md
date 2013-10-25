@@ -35,3 +35,7 @@ This script will take the project name, and set it as the title of the page. The
 			</div><!-- .media-body -->
 		</div><!-- .media -->
 	</div><!-- .the-maker -->
+
+The Excel/Google doc should be run through Mr. Data converter, changing it from a CSV file to JSON, and then saved as `makers.json` in the same directory as the PHP script. From that point, could view the source in the browser, saving it as export.xml, or from the command line, run this code:
+
+	curl -o export.xml /path/on/server/index.php
